@@ -5,4 +5,4 @@ if (!empty($_SESSION['userName'])) {
   unset($_SESSION['userName']);
 }
 
-header('Location: index.php');
+header('Location: ./index.php');
